@@ -16,7 +16,7 @@ public class IndexController {
 	public JsonResponse response() {
 		return JsonResponse.builder()
 				.success(false)
-				.payload(new Date())
+				.payload(null)
 				.build();
 	}
 }
