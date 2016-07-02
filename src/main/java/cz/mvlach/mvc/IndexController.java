@@ -15,7 +15,7 @@ public class IndexController {
 	@RequestMapping("/")
 	public JsonResponse response() {
 		return JsonResponse.builder()
-				.success(true)
+				.success(false)
 				.payload(new Date())
 				.build();
 	}
